@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact the Lyceum</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <!-- ✅ Icon library for social links -->
+  <script src="https://kit.fontawesome.com/a2e0e6a61d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- ✅ Global watermark -->
+  <div class="logo-background" aria-hidden="true"></div>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="hero fade-in" id="contact">
+    <div class="hero-inner">
+      <img class="hero-logo" src="assets/images/logo_full.png" alt="Lyceum Logo" />
+      <div class="hero-text">
+        <h1>Contact Us</h1>
+        <p>Reach Out to Begin Your Training Journey</p>
+
+        <!-- Static Menu -->
+        <div class="hero-menu">
+          <div class="menu-bar">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+              <button class="dropdown-toggle">About</button>
+              <div class="dropdown-menu">
+                <a href="about/lyceum.html">The Lyceum</a>
+                <a href="about/mkg.html">MKG – Milwaukee</a>
+                <a href="about/ergovita.html">Ergo Vita Martial Arts</a>
+                <a href="about/savate.html">Milwaukee Savate Club</a>
+              </div>
+            </div>
+            <a href="getting-started.html">Getting Started</a>
+            <a href="contact.html" class="active">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT SECTION ================= -->
+  <section class="intro fade-in" id="contact-info">
+    <div class="intro-inner">
+      <div class="intro-content">
+        <h2 style="font-family: 'Rodfat Two Demo', sans-serif; color: var(--gold); margin-bottom: 1rem;">
+          Get in Touch
+        </h2>
+        <p style="margin-bottom: 2rem;">
+          Whether you're interested in training, observing a class, or simply learning more about our philosophy,
+          we’d love to hear from you.
+        </p>
+
+        <!-- ✅ Contact Form -->
+        <form class="contact-form" action="#" method="post">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us what you’d like to know..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn-submit">Send Message</button>
+        </form>
+
+        <!-- ✅ Social Media Links -->
+        <div class="social-links">
+          <p style="margin-top: 2.5rem; margin-bottom: 0.5rem; font-weight: 600;">Follow the Lyceum</p>
+          <div class="social-icons">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://substack.com" target="_blank" aria-label="Substack">
+              <i class="fa-solid fa-rss"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer>
+    <p>&copy; 2025 Lyceum Martial Arts Group</p>
+  </footer>
+
+  <!-- ================= JS ================= -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
